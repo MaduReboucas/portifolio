@@ -11,28 +11,30 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer">
-        <h2>Desenvolvido por Madu Rebouças</h2>
-        <p>Contato</p>
-        <div className="contatos">
-          <ul>
-            <li className="contatos-btn">
+        <div className="title">
+          <h2>Desenvolvido por Madu Rebouças</h2>
+          <p>Contato</p>
+        </div>
+        <div className="contato no-border">
+          <ul className="contatos-container">
+            <li className="contatos divisao">
               <img src={githubIco} alt="github-ico" />
               <a href="https://github.com/MaduReboucas">MaduReboucas</a>
             </li>
 
-            <li className="contatos-btn">
+            <li className="contatos divisao">
               <img src={emailIco} alt="email-ico" />
               <span>mariadudareboucas@gmail.com</span>
             </li>
 
-            <li className="contatos-btn">
+            <li className="contatos divisao">
               <img src={inIco} alt="linkedin-ico" />
               <a href="www.linkedin.com/in/madureboucas">
                 Maria Eduarda Rebouças
               </a>
             </li>
 
-            <li className="contatos-btn">
+            <li className="contatos">
               <img src={phoneIco} alt="phone-ico" />
 
               <span>(55) 11 98821-9722</span>

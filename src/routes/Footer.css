@@ -9,7 +9,16 @@ footer {
 }
 
 .footer {
-  padding-top: 4rem;
+  padding-top: 3.5rem;
+}
+
+.title {
+  padding-bottom: 1rem;
+}
+
+h2 {
+  font-weight: lighter;
+  padding-bottom: 0.3rem;
 }
 
 h2,
@@ -23,7 +32,32 @@ a {
   text-decoration: none;
 }
 
-img {
-  height: 50px;
-  width: 50px;
+.contatos {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.divisao {
+  border-right: 1px dashed #5b5b5b;
+}
+
+.contatos img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.contatos-container {
+  display: flex;
+  justify-content: center; /* CENTRALIZA na horizontal */
+  align-items: center; /* CENTRALIZA verticalmente */
+  gap: 20px; /* espaço entre os itens */
+  padding: 0; /* remove recuo padrão da ul */
+  list-style: none;
+}
+
+.copy-right {
+  padding: 1rem;
 }
