@@ -2,10 +2,10 @@ import React from "react";
 import "./Footer.css";
 
 //imagens
-import emailIco from "../img/email-ico.png";
-import githubIco from "../img/github-ico.png";
-import phoneIco from "../img/phone-ico.png";
-import inIco from "../img/linkedin-ico.png";
+import emailIco from "../../img/email-ico.png";
+import githubIco from "../../img/github-ico.png";
+import phoneIco from "../../img/phone-ico.png";
+import inIco from "../../img/linkedin-ico.png";
 
 const Footer = () => {
   return (

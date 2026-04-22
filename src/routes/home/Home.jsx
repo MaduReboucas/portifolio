@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -6,10 +7,18 @@ const Home = () => {
       <nav className="navbar">
         <h1>Meu Portifólio</h1>
         <ul>
-          <li>PROJETOS</li>
-          <li>COMPETÊNCIAS</li>
-          <li>SOBRE MIM</li>
-          <li>CONTATO</li>
+          <li>
+            <a href="">PROJETOS</a>
+          </li>
+          <li>
+            <a href="">COMPETÊNCIAS</a>
+          </li>
+          <li>
+            <a href="">SOBRE MIM</a>
+          </li>
+          <li>
+            <a href="">CONTATO</a>
+          </li>
         </ul>
       </nav>
       <div className="main-title">
