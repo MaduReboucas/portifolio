@@ -7,15 +7,19 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 //Páginas
 import Home from "./routes/home/Home";
+import AboutMe from "./routes/aboutme/AboutMe";
 
 const router = createBrowserRouter([
   {
-    path: "/",
     element: <App />,
     children: [
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/about-me",
+        element: <AboutMe />,
       },
     ],
   },
