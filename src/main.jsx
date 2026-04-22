@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 //Páginas
 import Home from "./routes/home/Home";
 import AboutMe from "./routes/aboutme/AboutMe";
+import Interfaces from "./routes/projetos/interfaces/Interfaces";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/about-me",
         element: <AboutMe />,
+      },
+      {
+        path: "/projetos/interfaces",
+        element: <Interfaces />,
       },
     ],
   },
