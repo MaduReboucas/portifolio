@@ -1,0 +1,163 @@
+#Websites {
+  background-image: url("./img/backgorund-website.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 1rem;
+  height: 150rem;
+}
+
+#Websites h1 {
+  color: #fafafa;
+}
+
+/* main title */
+.maintitle-w {
+  padding: 5rem 7rem;
+  display: block;
+}
+
+.maintitle-w h1 {
+  font-size: 7rem;
+}
+
+.white {
+  border-bottom: 1px solid #ffffff;
+  width: 51%;
+}
+
+.gray {
+  color: #585858 !important;
+}
+
+/* websites */
+
+.website {
+  background-color: #2e2e2e;
+  border-radius: 35px;
+  box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.website a {
+  text-decoration: none;
+}
+
+.margin {
+  margin-right: 4rem;
+}
+
+.descirption-w {
+  padding: 1rem 0 1.5rem 2rem;
+}
+
+.website p {
+  color: #787878;
+  font-size: 20px;
+}
+
+.website h1 {
+  font-size: 25px;
+}
+
+.todolist {
+  background-image: url("../websites/img/pb/todolist-pb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.cr {
+  background-image: url("../websites/img/pb/cr-pb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.blog {
+  background-image: url("../websites/img/pb/blog-pb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.pt {
+  background-image: url("../websites/img/pb/pt-pb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.memory {
+  background-image: url("../websites/img/pb/memory-pb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.sda {
+  background-image: url("../websites/img/pb/sda-pb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.gf {
+  background-image: url("../websites/img/pb/gb-pb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.websites-line {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+/* cursor */
+
+.website:hover {
+  cursor: pointer;
+  .todolist {
+    background-image: url("../websites/img/colorida/todolist-colored.png");
+    transition: 0.3s;
+  }
+  .cr {
+    background-image: url("../websites/img/colorida/cr-colored.png");
+    transition: 0.3s;
+  }
+  .gf {
+    background-image: url("../websites/img/colorida/gb-colored.png");
+    transition: 0.3s;
+  }
+  .memory {
+    background-image: url("../websites/img/colorida/memory-colored.png");
+    transition: 0.3s;
+  }
+  .pt {
+    background-image: url("../websites/img/colorida/pt-colored.png");
+    transition: 0.3s;
+  }
+  .sda {
+    background-image: url("../websites/img/colorida/sda-colored.png");
+    transition: 0.3s;
+  }
+  .blog {
+    background-image: url("../websites/img/colorida/blog-colored.png");
+    transition: 0.3s;
+  }
+}

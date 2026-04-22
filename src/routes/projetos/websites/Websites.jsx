@@ -69,7 +69,7 @@ const Interfaces = () => {
 
           <div className="website ">
             <a href="https://github.com/MaduReboucas/avaliador-ts">
-              <div className="sdv"></div>
+              <div className="sda"></div>
               <div className="descirption-w">
                 <h1>Sistema de Avaliação</h1>
                 <p>Projeto - Udemy</p>
