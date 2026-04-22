@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./routes/home/Home";
 import AboutMe from "./routes/aboutme/AboutMe";
 import Interfaces from "./routes/projetos/interfaces/Interfaces";
+import Websites from "./routes/projetos/websites/Websites";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/projetos/interfaces",
         element: <Interfaces />,
+      },
+      {
+        path: "/projetos/websites",
+        element: <Websites />,
       },
     ],
   },
