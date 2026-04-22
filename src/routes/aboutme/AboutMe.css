@@ -2,9 +2,9 @@
   background-image: url("../../img/sobremim-backgorund.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   padding-top: 1rem;
-  height: 100rem;
+  height: 75rem;
 }
 
 .normal-color {
@@ -52,4 +52,34 @@
   width: 92%;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
+}
+
+/* Competências */
+.skils-containers h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.skils-containers {
+  padding: 2rem 3rem;
+}
+
+.line-skils {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+.line-skils li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+.anchor {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #585858;
+  border-radius: 28px;
+  font-size: 1.5rem;
+  box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.25);
 }
