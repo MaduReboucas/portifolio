@@ -1,0 +1,55 @@
+.aboutme {
+  background-image: url("../../img/sobremim-backgorund.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 1rem;
+  height: 100rem;
+}
+
+.normal-color {
+  color: #fafafa;
+}
+.degrade {
+  background: linear-gradient(to right, #ffffff, #787878);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 22px;
+}
+
+/* main */
+
+.maintitle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.maintitle {
+  padding-right: 9rem;
+}
+
+.maintitle h1 {
+  font-size: 7rem;
+}
+
+#me-img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+/* Descrição */
+
+.description {
+  text-align: center;
+  margin: auto;
+  padding: 3rem;
+  width: 92%;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
