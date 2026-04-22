@@ -1,0 +1,133 @@
+#Interfaces {
+  background-image: url("./img/interfaces-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-top: 1rem;
+  height: 115rem;
+}
+
+#Interfaces h1 {
+  color: #fafafa;
+}
+
+/* main title */
+.maintitle-i {
+  padding: 5rem 7rem;
+  display: block;
+}
+
+.maintitle-i h1 {
+  font-size: 7rem;
+}
+
+.white {
+  border-bottom: 1px solid #ffffff;
+  width: 61%;
+}
+
+.gray {
+  color: #585858 !important;
+}
+
+/* interfaces */
+
+.interface {
+  background-color: #2e2e2e;
+  border-radius: 35px;
+  box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.margin {
+  margin-right: 4rem;
+}
+
+.descirption-i {
+  padding: 1rem 0 1.5rem 2rem;
+}
+
+.interface p {
+  color: #787878;
+  font-size: 20px;
+}
+
+.interface h1 {
+  font-size: 25px;
+}
+
+.acdc-image {
+  background-image: url("../interfaces/img/pb/img-acdc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.apm-image {
+  background-image: url("../interfaces/img/pb/img-apm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.sdv-image {
+  background-image: url("../interfaces/img/pb/img-sdv.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.soad-image {
+  background-image: url("../interfaces/img/pb/img-soad.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.saTech-image {
+  background-image: url("../interfaces/img/pb/img-st.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 30rem;
+  height: 15rem;
+}
+
+.interfaces-line {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+/* cursor */
+
+.interface:hover {
+  cursor: pointer;
+  .acdc-image {
+    background-image: url("./img/colorida/img-acdc-colored.png");
+    transition: 0.3s;
+  }
+  .soad-image {
+    background-image: url("./img/colorida/img-soad-colored.png");
+    transition: 0.3s;
+  }
+  .sdv-image {
+    background-image: url("./img/colorida/img-sdv-colored.png");
+    transition: 0.3s;
+  }
+  .saTech-image {
+    background-image: url("./img/colorida/img-st-colored.png");
+    transition: 0.3s;
+  }
+  .apm-image {
+    background-image: url("./img/colorida/img-apm-colored.png");
+    transition: 0.3s;
+  }
+}
