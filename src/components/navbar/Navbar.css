@@ -10,30 +10,32 @@
   margin: auto; /* centraliza horizontal */
 }
 
-ul {
+#list-navbar {
   display: flex;
   align-items: center; /* CENTRALIZA verticalmente */
   gap: 20px; /* espaço entre os itens */
   padding: 0; /* remove recuo padrão da ul */
 }
-a h1 {
+.navbar-link h1 {
   font-size: 30px;
 }
 
-a {
+.navbar-link {
   color: #6c6c6c;
+  text-decoration: none;
   padding: 0 0.5rem 0 0.5rem;
 }
 
-li a {
+#li-navbar a {
   font-size: 18px;
+  text-decoration: none;
 }
 
-li {
+#li-navbar {
   list-style: none;
 }
 
-a:hover {
+.navbar-link:hover {
   color: #bebebe;
   transition: 0.3s;
 }

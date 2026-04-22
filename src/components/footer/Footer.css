@@ -16,19 +16,19 @@ footer {
   padding-bottom: 1rem;
 }
 
-h2 {
+.title h2 {
   font-weight: lighter;
   padding-bottom: 0.3rem;
 }
 
-h2,
-p,
-span,
-a {
+.footer h2,
+.footer p,
+.footer span,
+.footer a {
   color: #5b5b5b;
 }
 
-a {
+.contatos a {
   text-decoration: none;
 }
 
