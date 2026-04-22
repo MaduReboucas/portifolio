@@ -1,6 +1,6 @@
 import "./App.css";
-import Home from "./routes/home/Home";
-import Footer from "./components/footer/Footer";
+import Home from "../routes/home/Home";
+import Footer from "../components/footer/Footer";
 
 function App() {
   return (
