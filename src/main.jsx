@@ -10,6 +10,7 @@ import Home from "./routes/home/Home";
 import AboutMe from "./routes/aboutme/AboutMe";
 import Interfaces from "./routes/projetos/interfaces/Interfaces";
 import Websites from "./routes/projetos/websites/Websites";
+import SocialMedia from "./routes/projetos/social_media/SocialMedia";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/projetos/websites",
         element: <Websites />,
+      },
+      {
+        path: "projetos/social-media",
+        element: <SocialMedia />,
       },
     ],
   },
