@@ -114,6 +114,7 @@
 
 .interface:hover {
   cursor: pointer;
+  background-color: #4e4e4e;
   .acdc-image {
     background-image: url("./img/colorida/img-acdc-colored.png");
     transition: 0.3s;
