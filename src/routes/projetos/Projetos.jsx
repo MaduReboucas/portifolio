@@ -15,15 +15,15 @@ const Projetos = () => {
           <h1>PROJETOS</h1>
         </div>
         <div className="buttons-container">
-          <div className="interface-btn">
+          <div className="projetos-btn">
             <img className="img-btn" src={interfaces} alt="interface-ico" />
             <h2 className="title-btn">Interfaces</h2>
           </div>
-          <div className="interface-btn">
+          <div className="projetos-btn">
             <img className="img-btn" src={website} alt="websites-ico" />
             <h2 className="title-btn">Websites</h2>
           </div>
-          <div className="interface-btn">
+          <div className="projetos-btn">
             <img className="img-btn" src={socialMedia} alt="social-media-ico" />
             <h2 className="title-btn">Social</h2>
           </div>
