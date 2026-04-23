@@ -14,7 +14,7 @@ const SocialMedia = () => {
       <div className="social-container">
         <div className="social-line">
           <div className="social margin">
-            <a href="">
+            <a href="https://www.instagram.com/zendovaapp/">
               <div className="zendova"></div>
               <div className="description-s ">
                 <h1>Zendova</h1>
@@ -24,7 +24,7 @@ const SocialMedia = () => {
           </div>
 
           <div className="social margin">
-            <a href="">
+            <a href="https://www.instagram.com/meubebeaquatico">
               <div className="mba"></div>
               <div className="description-s ">
                 <h1 className="italico">Meu bebê aquático</h1>
@@ -32,16 +32,6 @@ const SocialMedia = () => {
                   Promoção do livro Meu bebê aquático - Sheila Barbin, através
                   de markting digital
                 </p>
-              </div>
-            </a>
-          </div>
-
-          <div className="social">
-            <a href="">
-              <div className="zendova"></div>
-              <div className="description-s ">
-                <h1>Zendova</h1>
-                <p>Promoção do sistema através de marketing digital</p>
               </div>
             </a>
           </div>
