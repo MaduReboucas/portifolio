@@ -55,12 +55,12 @@
 }
 
 /* Competências */
-.skils-containers h1 {
+#Skills h1 {
   font-size: 4rem;
   padding-bottom: 1rem;
 }
 
-.skils-containers {
+#Skills {
   padding: 2rem 3rem;
 }
 

@@ -9,7 +9,7 @@ import inIco from "../../img/linkedin-ico.png";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="contato">
       <div className="footer">
         <div className="title">
           <h2>Desenvolvido por Madu Rebouças</h2>

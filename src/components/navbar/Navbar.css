@@ -21,6 +21,15 @@
   color: #fafafa;
 }
 
+button.navbar-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit; /* herda fonte igual ao resto */
+  color: #6c6c6c;
+  padding: 0 0.5rem;
+}
+
 .navbar-link {
   color: #6c6c6c;
   text-decoration: none;

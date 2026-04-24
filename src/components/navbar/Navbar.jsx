@@ -9,14 +9,14 @@ const Navbar = () => {
       </Link>
       <ul id="list-navbar">
         <li id="li-navbar">
-          <a className="navbar-link" href="">
+          <Link className="navbar-link" to="/projetos">
             PROJETOS
-          </a>
+          </Link>
         </li>
         <li id="li-navbar">
-          <a className="navbar-link" href="">
+          <Link className="navbar-link" to="/about-me#Skills">
             COMPETÊNCIAS
-          </a>
+          </Link>
         </li>
         <li id="li-navbar">
           <Link className="navbar-link" to="/about-me">
@@ -24,9 +24,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li id="li-navbar">
-          <a className="navbar-link" href="">
+          <button
+            className="navbar-link"
+            onClick={() => {
+              const el = document.querySelector("#contato");
+              if (el) {
+                el.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
             CONTATO
-          </a>
+          </button>
         </li>
       </ul>
     </nav>
