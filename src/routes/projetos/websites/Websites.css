@@ -162,3 +162,19 @@
     transition: 0.3s;
   }
 }
+
+/* Responsividade */
+
+@media screen and (min-width: 1300px) {
+  .white {
+    width: 43% !important;
+  }
+
+  .maintitle-w {
+    padding-left: 16rem;
+  }
+
+  .margin {
+    margin-right: 8rem !important;
+  }
+}
