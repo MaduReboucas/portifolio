@@ -139,7 +139,7 @@
 
 /* Responsividade */
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1350px) {
   .white {
     width: 46% !important;
   }

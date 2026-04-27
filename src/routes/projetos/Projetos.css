@@ -71,9 +71,9 @@ h1,
 
 /* Responsividade */
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1350px) {
   #Projetos {
-    height: 800px;
+    height: 830px;
     padding-top: 1.5rem;
   }
 
